@@ -818,8 +818,8 @@ body {
 
 .sparkle2 {
     position: absolute;
-    left: 50%;
-    bottom: 350px;
+    left: 40%;
+    bottom: 400px;
     animation: sparkle 1s .5s alternate infinite;
 }
 
