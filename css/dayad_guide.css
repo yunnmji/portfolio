@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: #333;
+}
+img{
+    margin: auto;
+    display: block;
+}
+/* scroll */
+
+body::-webkit-scrollbar {
+    /*스크롤바 전체*/
+    width: 12px;
+}
+
+body::-webkit-scrollbar-thumb {
+    /*스크롤바 막대*/
+    background-color: #1E8842;
+    border-radius: 10px;
+    background-clip: padding-box;
+    border: 1px solid transparent;
+}
+
+body::-webkit-scrollbar-track {
+    /*스크롤바 막대 외부*/
+    background-color: #ccc;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 5px white;
+}
+/* top */
+a{
+    display: block;
+    position: fixed;
+    right:30px;
+    bottom: 40px;
+    text-decoration: none;
+    color: #1E8842;
+    font-weight: 900;
+    aspect-ratio: 1/1;
+    width: 50px;
+    background-color: white;
+    border-radius: 50%;
+    border: #1E8842 3px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .3s;
+    box-shadow: #00000034 1px 1px 3px;
+}
+a:hover{
+    background-color: #1E8842;
+    color: white;
+}

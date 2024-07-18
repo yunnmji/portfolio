@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+background-color: aliceblue;
+}
+img{
+    display: block;
+    margin: auto;
+}
+/* scroll */
+
+body::-webkit-scrollbar {
+    /*스크롤바 전체*/
+    width: 15px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #D9984F;
+    border-radius: 10px;
+    background-clip: padding-box;
+    border: 2px solid transparent;
+}
+
+body::-webkit-scrollbar-track {
+    /*스크롤바 막대 외부*/
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 5px white;
+}
+/* top*/
+a{
+    display: block;
+    position: fixed;
+    right:30px;
+    bottom: 40px;
+    text-decoration: none;
+    color: #7dadda;
+    font-weight: 900;
+    aspect-ratio: 1/1;
+    width: 50px;
+    background-color: white;
+    border-radius: 50%;
+    border: #7dadda 3px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .3s;
+    box-shadow: #4385c234 1px 1px 3px;
+}
+a:hover{
+    background-color: #7dadda;
+    color: white;
+}
