@@ -470,7 +470,7 @@ a.active {
     color: #333;
     border: solid 1px #333;
     border-radius: 10px;
-    font-weight: 600;
+    font-weight: 500;
     transition: .2s;
 
 }
@@ -606,7 +606,7 @@ body {
 
 #about h5 {
     font-size: 20px;
-    font-weight: 800;
+    font-weight: 700;
 }
 
 #about h5 span {
@@ -666,12 +666,12 @@ body {
     text-align: center;
     top: 50%;
     transform: translateY(-50%);
-    font-size: 20px;
+    font-size: 17px;
 }
 
 .chart span.title b {
     font-size: 20px;
-    font-weight: 900;
+    font-weight: 700;
 }
 
 
@@ -726,7 +726,7 @@ body {
 }
 
 .timeline-event-thumbnail {
-    font-weight: 700;
+    font-weight: 600;
 }
 
 
@@ -750,7 +750,7 @@ body {
 }
 
 #contact h3 {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
 }
 
