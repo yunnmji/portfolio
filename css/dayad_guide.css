@@ -36,7 +36,7 @@ body::-webkit-scrollbar-track {
     box-shadow: inset 0px 0px 5px white;
 }
 /* top */
-a{
+a{font-family: 'Pretendard';
     display: block;
     position: fixed;
     right:30px;

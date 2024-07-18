@@ -501,10 +501,6 @@ a.active {
     cursor: pointer;
 }
 
-body {
-    cursor: url(../img/art2.png);
-}
-
 .artwork_m {
     
     display: -webkit-box;
